@@ -1,0 +1,80 @@
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.s-header {
+  padding: 50px;
+  background-color: #445162;
+}
+
+.s-header::after {
+  content: "";
+  width: 100%;
+  clear: both;
+  display: block;
+}
+
+.s-header-block {
+  float: left;
+}
+
+.s-header-title {
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+  font-family: 'Arial';
+  font-size: 60px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 48px;
+}
+
+.s-header-list {
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+  font-family: 'Arial';
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 36px;
+}
+
+.s-header-item {
+  position: relative;
+  margin-left: 35px;
+}
+
+.s-header-item::before {
+  display: inline-block;
+  width: 25px;
+  height: 19px;
+  margin-right: 10px;
+  position: absolute;
+  top: 8px;
+  left: -35px;
+  background: url(img/check.png);
+  background-size: cover;
+}
+
+.s-header-img {
+  background-color: blue;
+  display: block;
+  float: right;
+}
