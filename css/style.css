@@ -63,14 +63,15 @@ li {
 
 .s-header-item::before {
   display: inline-block;
+  content: "";
   width: 25px;
   height: 19px;
   margin-right: 10px;
   position: absolute;
   top: 8px;
   left: -35px;
-  background: url(img/check.png);
   background-size: cover;
+  background-image: url(../img/check.png);
 }
 
 .s-header-img {
