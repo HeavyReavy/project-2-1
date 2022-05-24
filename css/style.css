@@ -18,7 +18,7 @@ li {
 }
 
 .container {
-  max-width: 1180px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -44,7 +44,7 @@ li {
   font-size: 60px;
   font-weight: 400;
   color: rgba(255, 255, 255, 1);
-  margin-bottom: 48px;
+  margin-bottom: 30px;
 }
 
 .s-header-list {
@@ -78,4 +78,111 @@ li {
   background-color: blue;
   display: block;
   float: right;
+}
+
+.s-main {}
+
+.s-main-about {
+  display: block;
+  width: 665px;
+  float: left;
+}
+
+.s-main-about-wrapper {
+  padding: 50px;
+}
+
+.s-main-about-wrapper::after {
+  content: "";
+  width: 100%;
+  clear: both;
+  display: block;
+}
+
+.s-main-about-title {
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: 400;
+  color: #445161;
+  margin-bottom: 30px;
+}
+
+.s-main-about-text {
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #333333;
+  margin-top: 20px;
+}
+
+.s-main-video {
+  float: right;
+}
+
+.s-main-dignity-wrapper {
+  padding: 50px;
+  background-color: #f5f5f5;
+}
+
+.s-main-dignity-wrapper::after {
+  content: "";
+  width: 100%;
+  clear: both;
+  display: block;
+}
+
+.s-main-dignity-title {
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: 400;
+  color: #445161;
+  text-align: center;
+}
+
+.s-main-dignity-block {
+  width: 48%;
+  float: left;
+  margin-top: 30px;
+}
+
+.second-block {
+  float: right;
+}
+
+.s-main-dignity-block-details {}
+
+.s-main-dignity-block-summary {
+  list-style-type: none;
+  margin-left: 41px;
+  position: relative;
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #333333;
+  margin-top: 35px;
+}
+
+.s-main-dignity-block-summary::before {
+  display: inline-block;
+  content: "";
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 0;
+  left: -41px;
+  background-size: auto;
+  background-image: url(../img/summary.png);
+  background-color: #445161;
+}
+
+.s-main-dignity-block-text {
+  margin-left: 41px;
+  margin-top: 20px;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 100;
+  color: #333333;
 }
