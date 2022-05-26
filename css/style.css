@@ -420,3 +420,166 @@ li {
   border: none !important;
 
 }
+
+.s-footer {}
+
+.s-footer-contacts {
+  padding: 50px;
+  background-color: #445162;
+}
+
+.s-footer-contacts-title {
+  font-family: Arial;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.s-footer-contacts-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.s-footer-contacts-form {
+  text-align: center;
+  padding-right: 45px;
+}
+
+.s-footer-contacts-form-input {
+  display: block;
+  width: 480px;
+  padding: 15px 10px;
+  border: none;
+  border-radius: 7px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 400;
+  color: #445162;
+  margin-bottom: 20px;
+}
+
+.s-footer-contacts-form-button {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #445162;
+  border: none;
+  border-radius: 7px;
+  padding: 14px 48px;
+}
+
+.s-footer-contacts-right {}
+
+.s-footer-contacts-right-contact {
+  display: block;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+.skype {
+position: relative;
+}
+
+.skype::before {
+  background-image: url(../img/skype.png);
+  display: block;
+  width: 24px;
+  height: 26px;
+  content: "";
+  position: absolute;
+  top:-3px;
+  left:-30px;
+}
+
+.icq {
+  position: relative;
+}
+
+.icq::before {
+  background-image: url(../img/icq.png);
+  display: block;
+  width: 26px;
+  height: 26px;
+  content: "";
+  position: absolute;
+  top:-3px;
+  left:-30px;
+}
+
+.mail {
+  position: relative;
+}
+
+.mail::before {
+  background-image: url(../img/mail.png);
+  display: block;
+  width: 22px;
+  height: 22px;
+  content: "";
+  position: absolute;
+  top:0;
+  left:-30px;
+}
+
+.phone {
+  position: relative;
+}
+
+.phone::before {
+  background-image: url(../img/phone.png);
+  display: block;
+  width: 24px;
+  height: 23px;
+  content: "";
+  position: absolute;
+  top:-3px;
+  left:-30px;
+}
+
+
+.s-footer-contacts-right-socials {}
+
+.s-footer-contacts-right-socials-item {
+  display: inline-block;
+  width: 43px;
+  height: 42px;
+  background-image: url(../img/socials.png);
+
+}
+
+.twitter {}
+
+.facebook {
+  background-position: top right -148px;
+}
+
+.linkenin {
+  background-position: top right -99px;
+}
+
+.google {
+  background-position: top right -49px;
+}
+
+.youtube {
+  background-position: top right 0px;
+}
+
+.s-footer-copy {
+  font-family: 'Arial';
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(68, 81, 98, 1);
+  letter-spacing: 0px;
+  text-align: center;
+  padding: 10px 0 5px 0;
+}
