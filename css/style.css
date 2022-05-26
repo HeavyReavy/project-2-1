@@ -271,14 +271,12 @@ li {
   margin-bottom: 10px;
 }
 
-.s-main-reviews-blocks {
-
-}
+.s-main-reviews-blocks {}
 
 .s-main-reviews-block {
-width: 49%;
-display: inline-block;
-margin-top: 25px;
+  width: 49%;
+  display: inline-block;
+  margin-top: 25px;
 }
 
 .s-main-reviews-block::after {
@@ -289,10 +287,10 @@ margin-top: 25px;
 }
 
 .s-main-reviews-block-img {
-display: block;
-border-radius: 50%;
-background-color: #445161;
-float: left;
+  display: block;
+  border-radius: 50%;
+  background-color: #445161;
+  float: left;
 }
 
 .s-main-reviews-block-desc {
@@ -311,8 +309,8 @@ float: left;
   position: absolute;
   width: 20px;
   height: 20px;
-  top:25px;
-  left:-10px;
+  top: 25px;
+  left: -10px;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
@@ -337,4 +335,88 @@ float: left;
   color: #989898;
   margin-top: 15px;
   display: block;
+}
+
+.s-main-buy {
+  padding: 50px;
+}
+
+.s-main-buy-title {
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: 400;
+  color: #445161;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.s-main-buy-bloks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  align-content: space-around;
+}
+
+.s-main-buy-block {
+  width: 300px;
+  background-color: #445162;
+  border-radius: 7px;
+  padding: 20px 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.s-main-buy-block-title {
+  width: 100%;
+  text-align: center;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.s-main-buy-block-price {
+  font-family: Arial;
+  font-size: 40px;
+  font-weight: 400;
+  color: #445162;
+  text-align: center;
+  background-color: #ffffff;
+  width: 100%;
+  display: inline-block;
+  border: 2px solid #445162;
+  box-sizing: border-box;
+  padding: 8px 0;
+  margin-top: 17px;
+}
+
+.s-main-buy-block-list {
+  padding: 0;
+}
+
+.s-main-buy-block-item {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: left;
+  list-style-position: inside;
+  padding-left: 20px;
+}
+
+.s-main-buy-block-btn {
+  padding: 14px 112px;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 700;
+  color: #445161;
+  background-color: #ffffff;
+  border-radius: 7px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  border: none !important;
+
 }
