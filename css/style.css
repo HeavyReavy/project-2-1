@@ -556,18 +556,23 @@ position: relative;
 
 }
 
-.twitter {}
+.twitter {
+  margin-right: 5px;
+}
 
 .facebook {
   background-position: top right -148px;
+  margin-right: 5px;
 }
 
 .linkenin {
   background-position: top right -99px;
+  margin-right: 5px;
 }
 
 .google {
   background-position: top right -49px;
+  margin-right: 5px;
 }
 
 .youtube {
